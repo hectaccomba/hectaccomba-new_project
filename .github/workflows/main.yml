@@ -1,11 +1,12 @@
-name: pushing
+name: Meine erste Pipeline
+
 on:
   push:
+    branches: [ main ]
 
 jobs:
-  hello:
-    runs-on: debian
-
+  begruessung:
+    runs-on: ubuntu-latest
     steps:
-      - name: message
-        run: echo "Jemand pusht dort"
+      - name: Nachricht ausgeben
+        run: echo "Die Pipeline laeuft!"
