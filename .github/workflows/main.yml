@@ -10,3 +10,12 @@ jobs:
     steps:
       - name: Nachricht ausgeben
         run: echo "Die Pipeline laeuft!"
+  html_ueberpruefen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: website Auslesen
+        run: 
+          read:
+            https://github.com/hectaccomba/new_project/main/website.html
+      - name: syntax überprüfen
+        run: Cyb3r-Jak3/html5validator-action@v7.2.0
