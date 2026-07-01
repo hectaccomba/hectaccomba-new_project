@@ -1,4 +1,11 @@
+name: pushing
 on:
   push:
-    branches:
-    - main
+
+jobs:
+  hello:
+    runs-on: debian
+
+    steps:
+      - name: message
+        run: echo "Jemand pusht dort"
