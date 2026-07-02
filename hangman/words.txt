@@ -1,25 +1,7 @@
-
-Skip to content
-
-    All gists
-    GitHub
-
-13
-6
-
-@deekayen deekayen/1-1000.txt
-Created 3 years ago
-Code
-Revisions 1
-Stars 13
-Forks 6
-1,000 most common US English words
-1-1000.txt
 the
 of
 to
 and
-a
 in
 is
 it
@@ -32,7 +14,6 @@ on
 are
 with
 as
-I
 his
 they
 be
